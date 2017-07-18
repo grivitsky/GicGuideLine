@@ -210,19 +210,21 @@ a:hover
 {
     color: #4b565b;  
     text-decoration: underline;
+    transition: .2s ease-in-out;
 }
 .Link_learnmore
 {
     color: #75bae1;
     font-size: 18px;
     font-weight: 400;
-    text-decoration: underline;
+    
 }
 .Link_learnmore:hover
 {
     color: #75bae1;
     text-decoration: underline;
-    font-weight: 500;
+    font-weight: 400;
+    transition: .2s ease-in-out;
 }
 
 
@@ -249,16 +251,24 @@ input
     color: #fff;
     text-align: center;
     padding: 14px;
+    border: none;
+}
+.btn_fill:active
+{
+    background: #fff;
+    color: #75bae1;
+    font-weight: 400;
+    transition: .1s ease-in-out;
 }
 .btn_outline
 {
-    margin-top: 24px;
     border: 1px #75bae1 solid;
     width: 192px;
     font-size: 18px;
     color: #75bae1;
     text-align: center;
     padding: 14px;
+    background: none;
     font-weight: 300;
 }
 .hvr-sweep-to-top
